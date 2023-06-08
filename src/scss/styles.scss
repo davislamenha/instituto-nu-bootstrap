@@ -1,1 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
+
+.carousel-img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 50vw;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+}
