@@ -33,3 +33,14 @@
     }
   }
 }
+
+.produtos {
+  &_produto {
+    width: 280px;
+    img {
+      object-fit: cover;
+      object-position: bottom;
+      height: 360px;
+    }
+  }
+}
