@@ -1,12 +1,35 @@
 @import '~bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
 
-.carousel-img {
-  width: 100%;
-  object-fit: cover;
-  max-height: 45vw;
-  margin-top: 74px;
+.carousel {
+  &-img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 45vw;
+    margin-top: 74px;
+  }
+
+  &-caption {
+    background: rgba(0, 0, 0, 0.5);
+  }
 }
 
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.5);
+.time {
+  &_pessoa {
+    img {
+      object-fit: cover;
+      width: 200px;
+      height: 200px;
+    }
+
+    &_social_link {
+      i {
+        transition: 0.3s all;
+      }
+
+      &:hover i {
+        opacity: 0.7;
+      }
+    }
+  }
 }
